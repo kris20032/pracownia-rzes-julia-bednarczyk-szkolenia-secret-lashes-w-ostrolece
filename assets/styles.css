@@ -577,3 +577,9 @@ section{padding-block:clamp(74px,10vh,124px)}   /* nieco więcej oddechu niż re
 .nav .brand .sub{display:none}
 .nav .brand{min-width:0;overflow:hidden}
 }
+
+/* === focal-point zdjęć (smartcrop) — cover nie utnie twarzy/obiektu === */
+img[src$="/about.jpg"]{object-position:37% 52%}
+[style*="about.jpg"]{background-position:37% 52%}
+img[src$="/g6.jpg"]{object-position:52% 39%}
+[style*="g6.jpg"]{background-position:52% 39%}
